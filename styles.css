@@ -1,0 +1,199 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&display=swap");
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+header h2 {
+  margin-left: 50px;
+  font-family: "Cormorant Garamond", serif;
+}
+
+.nav-items {
+  display: flex;
+  list-style-type: none;
+}
+
+.nav-items li {
+  padding: 5px 20px 5px 5px;
+  margin-right: 50px;
+}
+
+.nav-items li:last-child {
+  margin-right: 0px;
+}
+
+.aboutme p {
+  font-size: 48px;
+  margin-left: 50px;
+  margin-bottom: 0px;
+}
+
+.aboutme-hr {
+  width: 2%;
+  margin-left: 50px;
+}
+
+.aboutme-description {
+  display: inline-block;
+  margin-left: 50px;
+  width: 35%;
+}
+
+.footer-contact {
+  text-align: center;
+}
+
+.footer-contact-btn {
+  padding: 10px;
+  width: 20%;
+  margin-bottom: 30px;
+  border-color: #5C5C5C;
+}
+
+.footer-contact-icons {
+  padding: 30px;
+  background-color: #3B3636;
+}
+
+.footer-contact-icons img {
+  padding: 10px;
+  background-color: #3B3636;
+}
+
+.mainSection-text {
+  margin-left: 50px;
+  margin-top: 60px;
+  font-size: 24px;
+}
+
+.mainSection-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 350px);
+  grid-template-rows: repeat(2, 200px);
+  margin-left: 50px;
+  -moz-column-gap: 50px;
+       column-gap: 50px;
+  row-gap: 90px;
+}
+
+.mainSection-grid-items-flag {
+  border: 1px solid black;
+  background-color: #3B3636;
+  padding: 2px;
+  font-size: 10px;
+  font-family: "Inter";
+}
+
+.mainSection-grid-items-project-image {
+  width: 100%;
+  height: 100%;
+  background-color: #3B3636;
+}
+
+.mainSection-grid-items hr {
+  width: 7%;
+  margin-left: 0px;
+}
+
+* {
+  background-color: #13262F;
+  color: #f0e6d6;
+  font-family: "Cormorant Garamond", serif;
+}
+
+.aboutme-flex {
+  display: flex;
+  margin-top: 200px;
+  margin-bottom: 100px;
+  justify-content: center;
+  gap: 60px;
+}
+
+.aboutme-flex-item1 {
+  width: 30%;
+}
+
+.aboutme-flex-item2 img {
+  margin-top: 20px;
+  width: 300px;
+}
+
+.aboutme-flex-item1-hr {
+  width: 10%;
+  margin-left: 0px;
+}
+
+.exp-int-flex {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+}
+
+.exp-int-flex li {
+  list-style-type: none;
+  padding: 10px;
+}
+
+.exp-int-flex-item1 {
+  width: 30%;
+}
+
+.exp-int-flex-item2 {
+  width: 30%;
+}
+
+.exp-int-flex-hr-styling {
+  background-color: #5C5C5C;
+  height: 0.5px;
+  border: none;
+}
+
+@media only screen and (max-width: 768px) {
+  header {
+    flex-wrap: wrap;
+  }
+  header h2 {
+    margin-left: 62px;
+  }
+  .aboutme-description {
+    display: inline-block;
+    margin-left: 50px;
+    width: 70%;
+  }
+  .nav-items li:last-child {
+    margin-right: 0px;
+  }
+  .mainSection-grid {
+    display: grid;
+    grid-template-rows: repeat(6, 200px);
+    grid-template-columns: 300px;
+  }
+  .exp-int-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+  }
+  .aboutme {
+    text-align: center;
+  }
+  .aboutme-role hr {
+    display: none;
+  }
+  .exp-int-flex-item1 {
+    width: 80%;
+  }
+  .exp-int-flex-item2 {
+    width: 80%;
+  }
+  .aboutme-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .aboutme-flex-item1 {
+    width: 60%;
+  }
+}/*# sourceMappingURL=styles.css.map */

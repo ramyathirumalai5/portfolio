@@ -1,0 +1,48 @@
+header{
+    display:flex;
+    justify-content:space-between;
+    
+}
+header h2{
+  margin-left:50px;
+  font-family:'Cormorant Garamond', serif;
+  
+
+}
+
+.nav-items{
+    display:flex;
+    list-style-type:none;
+
+    
+}
+
+.nav-items li{
+    padding:5px 20px 5px 5px;
+    margin-right:50px;
+    
+}
+
+.nav-items li:last-child{
+    margin-right:0px;
+}
+
+.aboutme p{
+    font-size:48px;
+    margin-left:50px;
+    margin-bottom:0px;
+    
+}
+.aboutme-hr{
+    width:2%;
+    margin-left:50px;
+    
+}
+
+.aboutme-description{
+    display:inline-block;
+    margin-left:50px;
+    width:35%;
+    
+}
+
